@@ -1,0 +1,166 @@
+
+/*titulo*/
+.pizza{
+	color: #950000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+
+/*cardapio*/
+.cardapio{
+	color: #AB0000;
+	text-align: center;
+} 
+
+
+/*html*/
+html{
+	background: #DF9D00;
+	font-family: 'Fredoka One', cursive;
+}
+/*---*/
+div{
+	width: 650px;
+	height: 150px;
+	display: inline-block;
+
+
+}
+
+#container-a, #container-b {
+	min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.preços {
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.el_macho {
+	margin-left: 600px;
+ 	width: 70px;
+ 	margin-top: 10px;
+}
+ body{
+ 	margin: 0 ;
+ }
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+ .logo {
+ 	width: 42px;
+ 	height: 42;
+ 	border-radius: 100px;
+ 	box-shadow: black;
+ 	margin: 10px;
+ }
+
+ header {
+ 	height: 10vh;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	background-color: #ffa000;
+ 	box-shadow: 0 0 1rem black;
+ }
+
+ ul {
+ 	display: flex;
+ 	margin: 23px;
+ }
+
+li {
+	color: whitesmoke;
+	list-style-type: none;
+	cursor: pointer;
+	padding-left: 2rem;
+
+}
+
+#pizza_pedaco {
+	width: 42px;
+ 	height: 42px;
+ 	box-shadow: black;
+ 	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	/*titulo*/
+.pizza{
+	color: #950000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+/*cardapio*/
+.cardapio{
+	color: #AB0000;
+	text-align: center;
+}
+
+
+/*html*/
+html{
+	background: #DF9D00;
+	font-family: 'Fredoka One', cursive;
+}
+/*---*/
+div{
+	width: 400px;
+	height: 750px;
+	display: block;
+
+
+}
+
+#container-a{
+	display: block;
+}
+#container-b{
+	display: block;
+}
+
+.preços {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#pizza_pedaco {
+	width: 42px;
+ 	height: 42px;
+ 	box-shadow: black;
+ 	margin: 0px;
+}
+.el_macho {
+	margin-left: 180px;
+ 	width: 70px;
+ 	margin-top: 10px;
+ }
+ body {
+ 	margin: 0 ;
+ }
